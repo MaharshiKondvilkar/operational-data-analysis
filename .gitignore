@@ -218,3 +218,30 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# -------------------------------------------------
+# Project-specific exclusions
+# -------------------------------------------------
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Credentials and API keys
+credentials/
+secrets/
+*.key
+
+# Private / confidential data
+data/private/
+data/raw/
+private_data/
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+Thumbs.db
